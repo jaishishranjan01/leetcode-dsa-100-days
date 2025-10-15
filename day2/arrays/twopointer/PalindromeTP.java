@@ -1,6 +1,6 @@
 package day2.arrays.twopointer;
 
-public class PalindromeTwoPointer {
+public class PalindromeTP {
     public static void main(String[] args) {
         String str = "abcba";
         System.out.println(isPalindrome(str));

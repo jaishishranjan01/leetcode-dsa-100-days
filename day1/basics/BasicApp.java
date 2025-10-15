@@ -7,8 +7,8 @@ public class BasicApp {
 //            System.out.println(i);
 //        }
         //recursiveFunction(10);
-        fibonacciItr(90);
-        //System.out.println(fibonacciRec(30));
+        //fibonacciItr(90);
+        System.out.println(fibonacciRec(3));
     }
 
     /**
@@ -41,16 +41,18 @@ public class BasicApp {
         }
     }
 
+    /**
+     * find the nth fibonacci
+     * @param n
+     * @return nth fibonacci number
+     */
     public static int fibonacciRec(int n) {
-
         if(n == 0) {
             return 0;
         }
-
         if (n == 1) {
             return 1;
         }
-        System.out.println(n);
         return fibonacciRec(n-1) + fibonacciRec(n-2);
     }
 }
